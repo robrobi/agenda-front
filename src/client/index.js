@@ -10,7 +10,7 @@ import { fromJS } from 'immutable';
 
 require('views/styles/main.scss');
 require('react-bootstrap/');
-
+ 
 function run() {
   const element = document.getElementById('initial-state');
   const initialState = JSON.parse(element.innerHTML);
@@ -33,4 +33,3 @@ if (['complete', 'loaded', 'interactive'].indexOf(document.readyState) !== -1 &&
 } else {
   document.addEventListener('DOMContentLoaded', run, false);
 }
-
