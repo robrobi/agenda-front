@@ -1,0 +1,8 @@
+const ACTIONS = {
+  TEST:           'TEST ACTION',
+  LOAD_CONTACTS:  'LOAD_CONTACTS',
+  DELETE_CONTACT: 'DELETE_CONTACT',
+  ADD_CONTACT:    'ADD_CONTACT',
+};
+
+export default ACTIONS;

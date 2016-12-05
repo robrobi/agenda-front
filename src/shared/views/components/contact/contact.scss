@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+$border_color: #b3b3b3;
+$lightblue: #e6f5ff;
+
+.contact {
+    position: relative;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid $border_color;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: $lightblue;
+    padding: 5px 0 5px 5px;
+
+    &__title {
+        font-weight: bold;
+    }
+
+    &__iconRemove {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
